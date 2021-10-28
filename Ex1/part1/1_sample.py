@@ -28,6 +28,7 @@ def parse_args():
     parser.add_argument('--factor', dest='factor', type=int, default=2, help='Subsampling factor. Default: 2.')
     parser.add_argument('--sigma', dest='sigma', type=float, default=0.0, help='Strength of lowpass filter. Default: 0.0')
 
+
     if len(sys.argv) == 1:
         parser.print_help()
         sys.exit(1)
